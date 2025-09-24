@@ -64,8 +64,9 @@ public class ClientesService : IClienteInterface
             {
                 Nome = clienteCriacaoDto.Nome,
                 Sobrenome = clienteCriacaoDto.Sobrenome,
-                Endereco = clienteCriacaoDto.Endereco,
-                Email = clienteCriacaoDto.Email
+                Cpf = clienteCriacaoDto.Cpf,
+                Email = clienteCriacaoDto.Email,
+                Endereco = clienteCriacaoDto.Endereco
             };
 
             _context.Add(cliente);
@@ -83,6 +84,7 @@ public class ClientesService : IClienteInterface
             return resposta;
         }
     }
+
 
 
     public async Task<ResponseModel<List<ClienteModel>>> EditarCliente(ClienteEdicaoDto clienteEdicaoDto)
@@ -148,5 +150,4 @@ public class ClientesService : IClienteInterface
             return resposta;
         }
     }
-
 }
