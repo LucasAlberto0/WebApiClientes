@@ -22,7 +22,7 @@
 
 ## 1º
 ```bash
-git clone https://github.com/LucasAlberto0/MostenBank.git](https://github.com/LucasAlberto0/WebApiClientes.git
+git clone https://github.com/LucasAlberto0/WebApiClientes.git
 ```
 
 ## 2º 
